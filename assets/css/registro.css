@@ -1,0 +1,400 @@
+body {
+   background: #1855E7;
+   font-family: sans-serif; 
+	background-image: url("../img/Cityt_Lines.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 height: 100%;
+    width: 100%;
+    top: 120px;
+	background-position: center;
+
+}
+#logobar {
+  overflow: hidden;
+  background-color: rgba(250, 250, 250, 0.9);
+	height: 120px;
+}
+@media screen and (max-width:480px){
+	
+	.h3, h3{
+		font-size: 18px;
+	}
+	.h6, h6{
+		font-size: 13px;
+	}
+	.h5, h5{
+		font-size: 14px;
+	}
+  .sticky img{
+	width: 60%; 
+	
+	}
+	.sticky {
+	  position: fixed;
+	  top: 0;
+	  text-align: center;
+		padding: 10px 10px 10px 10px;
+
+	}
+	.row-registro{
+	
+	top: 180px;
+	background-color: rgba(250, 250, 250, 0);
+	}
+	/* Page content */
+	.content {
+	  padding: 16px;
+	}
+	.sticky + .content {
+	  padding-top: 120px;
+	}
+	form {
+	  position: fixed;
+	  width: 300px;
+	  height: 60px;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%); 
+	}
+	form fieldset {
+		position: absolute;
+		width: 300px;
+		height: 500px;
+		background: white;
+		border-radius: 3px;
+		opacity: 0;
+		transform: scale(0.2);
+		transition: all 0.4s ease-in-out; 
+	}
+	form fieldset input, form fieldset p {
+	  display: inline-block;
+	  width: 200px;
+	  margin: auto;
+	  color: #333333;
+	  font-size: 16px;
+	  letter-spacing: 1px; 
+	}
+	form fieldset p {
+	 margin: auto;
+	 text-align: center; 
+	}
+	form fieldset input {
+	  height: 40px;
+	  margin-top: auto;
+	  border: none;
+	  outline: none; 
+	box-sizing: border-box;
+		text-align: center;
+	  border-bottom: 2px solid #606660e0;
+	}
+	
+	form fieldset .iconbottom.right {
+		background-color: #1855E7;
+		position:fixed;
+		
+		width: 50px;
+		height: 35px;
+		bottom: 15px;
+		right: 10px;
+		color: #FFFFFF;
+		border-radius: 5px;
+	
+	}
+	form fieldset .iconbottom.right i {
+		padding-top: 10px;
+	
+	}
+	form fieldset .iconbottom.rightup i {
+		padding-top: 10px;
+	}
+	form fieldset .iconbottom.rightup {
+		background-color: #1855E7;
+		position:fixed;
+		
+		width: 50px;
+		height: 35px;
+		bottom: 15px;
+		right: 80px;
+		color: #FFFFFF;
+		border-radius: 5px;
+	}
+	
+    form fieldset.enable {
+		z-index: 1;
+		opacity: 1;
+		transition: all 0.5s ease-out 0.2s;
+		transform: scale(1);
+		animation: enable 0.5s ease-out 0.2s; 
+	}
+    form fieldset.disable {
+		opacity: 0;
+		transition: all 0.3s ease-in;
+		transform: translateY(120px) scale(0.9); 
+	}
+	
+	.send {
+		align-items: center;
+		background-color: #77c275;
+		color: #FFFFFF;
+		align-content: center;
+		text-align: center;
+		border-radius: 5px;
+		width: 120px;
+		height: 30px;
+		cursor: pointer; 
+		font-size: 12px;
+	}
+
+
+	.send:hover {
+	  background: #a1b4e1;
+	  border-radius: 3px;
+	  transition: all 0.4s ease; 
+		cursor: pointer; 
+	}
+	.name h3{
+		font-size: 18px;
+		color: black;
+		margin-top: 100px;
+		
+	}
+	.lastname h3{
+		font-size: 18px;
+		color: black;
+		margin-top: 100px;
+	}
+	.nocliente h3{
+		font-size: 18px;
+		color: black;
+		margin-top: 20px;
+		margin-left:20px;
+		margin-right: 20px;
+	}
+	.phone h3{
+		font-size: 18px;
+		color: black;
+		margin-top: 100px;
+	}
+	.email h3{
+		font-size: 18px;
+		color: black;
+		margin-top: 100px;
+	}
+
+}
+@media screen and (min-width:481px){
+	.sticky {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+		padding-left: 60px;
+
+	}
+	#imgcard{
+		margin:auto;
+		width: 50%;
+		padding: 0em 0em 1em;
+	}
+	.sticky img{
+	width: 15%; 
+	
+	}
+	.row-registro{
+	
+	top: 180px;
+	background-color: rgba(250, 250, 250, 0);
+	}
+	/* Page content */
+	.content {
+	  padding: 16px;
+	}
+	.sticky + .content {
+	  padding-top: 120px;
+	}
+	form {
+	  position: fixed;
+	  width: 800px;
+	  height: 60px;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%); 
+	}
+	form fieldset {
+	  position: absolute;
+	  width: 800PX;
+	  height: 550px;
+	  background: white;
+	  border-radius: 3px;
+	  opacity: 0;
+	  transform: scale(0.2);
+	  transition: all 0.4s ease-in-out; 
+	}
+	form fieldset input, form fieldset p {
+	  display: inline-block;
+	  width: 300px;
+	  margin: auto;
+	  color: #333333;
+	  font-size: 18px;
+	  letter-spacing: 1px; 
+	  
+	}
+	form fieldset p {
+	margin: auto;
+	 text-align: center; 
+	}
+	form fieldset input {
+	  height: auto;
+	  margin-top: auto;
+	  border: none;
+	  outline: none; 
+	box-sizing: border-box;
+		text-align: center;
+	  border-bottom: 2px solid #606660e0;
+		
+	}form fieldset .iconbottom.right {
+		background-color: #1855E7;
+		position:fixed;
+		
+		width: 50px;
+		height: 35px;
+		bottom: 15px;
+		right: 10px;
+		color: #FFFFFF;
+		border-radius: 5px;
+	}
+	}
+	form fieldset .iconbottom.right i {
+		padding-top: 10px;
+	}
+	form fieldset .iconbottom.rightup {
+		background-color: #1855E7;
+		position:fixed;
+		
+		width: 50px;
+		height: 35px;
+		bottom: 15px;
+		right: 80px;
+		color: #FFFFFF;
+		border-radius: 5px;
+	}
+	form fieldset .iconbottom.rightup i {
+		padding-top: 10px;
+	}
+	form fieldset .iconbottom.button:hover {
+	  background: #a1b4e1;
+	  border-radius: 3px;
+	  transition: all 0.4s ease; 
+	}
+    form fieldset.enable {
+		z-index: 1;
+		opacity: 1;
+		transition: all 0.5s ease-out 0.2s;
+		transform: scale(1);
+		animation: enable 0.5s ease-out 0.2s; 
+	}
+    form fieldset.disable {
+		opacity: 0;
+		transition: all 0.3s ease-in;
+		transform: translateY(120px) scale(0.9); 
+	}
+	
+	.send {
+		align-items: center;
+		background-color: #77c275;
+		color: #FFFFFF;
+		align-content: center;
+		text-align: center;
+		border-radius: 5px;
+		width: 150px;
+		height: 40px;
+		cursor: pointer; 
+	}
+
+
+	.send:hover {
+	  background: #a1b4e1;
+	  border-radius: 3px;
+	  transition: all 0.4s ease; 
+		cursor: pointer; 
+	}
+	.name h3{
+		font-size: 20px;
+		color: black;
+		margin-top: 100px;
+	}
+	.lastname h3{
+		font-size: 20px;
+		color: black;
+		margin-top: 100px;
+	}
+	.nocliente h3{
+		font-size: 20px;
+		color: black;
+		margin-top: 20px;
+	}
+	.phone h3{
+		font-size: 20px;
+		color: black;
+		margin-top: 100px;
+	}
+	.email h3{
+		font-size: 20px;
+		color: black;
+		margin-top: 100px;
+	}
+
+	
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+  body fieldset {
+    box-shadow: 0 8px 10px #29a329; }
+
+  body.error fieldset {
+    box-shadow: 0 8px 10px #bd3200; }
+
+h1, h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+h1 {
+  top: 24px;
+  color: white;
+  font-size: 12px; }
+
+h2 {
+  top: 44px;
+  color: white;
+  font-size: 10px;
+  opacity: 0.7; }
+
+body.error fieldset {
+  transform-origin: 50% 100%;
+  animation: error 0.3s ease-out; }
+
+@keyframes enable {
+  0% {
+    opacity: 0;
+    transform: scale(0.2); }
+  60% {
+    transform: scale(1.1); }
+  100% {
+    opacity: 1;
+    transform: scale(1); } }
+
+@keyframes error {
+  0%, 50%, 100% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(-3deg); }
+  75% {
+    transform: rotate(3deg); } }
